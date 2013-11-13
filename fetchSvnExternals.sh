@@ -35,5 +35,3 @@ done <<< "$externals"
 echo "All svn:externals have been cloned into their respective directories."
 echo "---------------------------------------------------------------------"
 printf "${completionMessage}\n"
-
-OIFS="$IFS"
