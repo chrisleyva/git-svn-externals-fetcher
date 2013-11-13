@@ -5,7 +5,7 @@ Fetches all the SVN:externals in your project and performs a git svn clone in th
 
 # Usage
 
-Perform a 'git svn clone *url*' as you normally would. Once that completes, copy the fetchSvnExternals.sh file into your newly cloned git repo. From there, run the shell script and let it do its thang.
+Perform a `git svn clone *url*` as you normally would. Once that completes, copy the `fetchSvnExternals.sh` file into your newly cloned git repo. From there, run the shell script and let it do its thang.
 
 That should be it. 
 
