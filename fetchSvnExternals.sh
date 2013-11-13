@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "This will hopefully checkout your project and its svn:externals."
+echo "This will hopefully checkout your project's svn:externals."
 
 externals=$(git svn propget svn:externals)
 
