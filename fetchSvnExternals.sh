@@ -7,7 +7,10 @@ completionMessage=""
 
 while read -r svnExt 
 do
-	# svnExt contains the SVN url of the project and the directory where the project will be cloned.
+	# Pre- and Post-1.5 svn:external format can be found here:
+	# http://svnbook.red-bean.com/en/1.7/svn.advanced.externals.html
+
+	# Currently, only "url path" is supported. "-rNNN url path" will break.
 	
 	# Change IFS to whitespace just to break $svnExt into an array.
 	OIFS="$IFS"
